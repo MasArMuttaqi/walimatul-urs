@@ -1,0 +1,82 @@
+		.player {
+		    z-index: 10;
+		    background: #F9F9F9;
+		    color: #000;
+		    min-height: 80px;
+		    max-height: 80px;
+		    display: flex;
+		    flex-direction: row;
+		    width: -webkit-fill-available;
+		    justify-content: center;
+		}
+		.player .left {
+		    width: 80px;
+		    background-image: url(https://i.scdn.co/image/ab67616d0000b273c125227ec3fe92cf0c504c09);
+		    background-size: cover;
+		}
+		.player .right {
+		    flex-grow: 1;
+		    display: flex;
+		    flex-direction: column;
+		}
+		.player .right .top {
+		    flex-grow: 1;
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    padding-left: 10px;
+		}
+		.player .right .top .song {
+		    font-size: 1.2em;
+		    font-weight: 600;
+		}
+		body a:not(:hover) {
+    		text-decoration: none;
+		}
+
+		body a {
+		    color: inherit;
+		}
+		.player .right .bottom {
+		  display: flex;
+		}
+		.player .right .bottom audio{
+		  	flex-grow: 1;
+		  	height: 30px;
+		    width: -webkit-fill-available;
+		}
+
+		#lyricer {
+		    font-size: 16pt;
+		    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+/*		    text-shadow: 0 0 1px #EEEEEE;*/
+		    color: #008069;
+		    overflow: hidden;
+		}
+
+		#lyricer ul {
+		    list-style-type: none;
+		    padding: 5px;
+		}
+
+		#lyricer ul li {
+		    overflow: auto;
+		}
+
+		#lyricer ul li:hover {
+		    color: #008069;
+		}
+
+		@media screen and (max-width: 660px){
+			#lyricer {
+				font-size: 11pt;
+				color: #008069;	
+			}
+			#lyricer ul li:hover {
+				font-size: 11pt;
+		    	color: #008069;
+			}
+
+
+		}
+

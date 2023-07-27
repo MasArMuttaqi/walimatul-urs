@@ -1,0 +1,33 @@
+#view_undangan{
+	width: -webkit-fill-available;
+}
+#view_undangan p {
+	font-family: 'Raleway', sans-serif;
+    color: #5e6661;
+    font-size: 16pt;
+}
+#view_undangan .family{
+	color: #5e6661;
+}
+
+#view_undangan .penganten {
+	font-family: Gabelisa;
+	color: #c79637;
+	font-size: 28pt;
+	font-weight: 400;
+}
+#back{
+	margin-top: 72px;
+    opacity: 0.7;
+}
+@media screen and (max-width: 660px){
+	#view_undangan p {
+		font-size: 11pt;
+	}
+	#view_undangan .penganten{
+		font-size: 18pt;
+	}
+	#view_undangan .family{
+		color: #5e6661;
+	}
+}

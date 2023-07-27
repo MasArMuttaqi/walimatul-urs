@@ -1,0 +1,208 @@
+		@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Mrs+Saint+Delafield&display=swap');
+		
+		html{
+			overflow: auto;
+		}
+
+		body{
+			font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+			width: 100%;
+		    height: 100%;
+		    padding: 0;
+		    margin: 0;
+		    overflow: hidden;
+		    overflow-x: hidden;
+		    display: block;
+		}
+
+		/*p {
+			font-family: 'Marcellus', serif;
+        	color: #e2ba61;
+        	font-size: 12pt;
+      	}*/
+
+      	#cover h3 {
+		    font-family: 'Mrs Saint Delafield', cursive;
+		    color: #d8ba68;
+		    font-size: 72pt;
+		    font-weight: 400;
+		}
+
+		#app {
+			width: 100%;
+		    height: 100%;
+		    padding: 0;
+		    margin: 0;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		}
+		.tsBgS {
+		    overflow-y: auto;
+		    overflow-x: hidden;
+		}
+		._1Fm4m {
+		    position: relative;
+		    z-index: 5;
+		    width: 100%;
+		    height: 100%;
+		}
+
+		.landing-headerTitle {
+			margin-left: 14px;
+		    display: inline-block;
+		    font-size: 14px;
+		    font-weight: 500;
+		    line-height: normal;
+		    color: #fff;
+		    text-transform: uppercase;
+		    vertical-align: middle;
+		}
+
+		.landing-wrapper {
+		    z-index: 2;
+		    box-sizing: border-box;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    justify-content: flex-start;
+		    padding-right: 36px;
+    		padding-left: 36px;
+    		padding-bottom: 92px;
+    		cursor: default;
+		}
+		.landing-wrapper-before {
+			position: absolute;
+		    top: 0;
+		    z-index: -1;
+		    width: 100%;
+		    height: 222px;
+		    background-color: #00a884;
+		}
+		.landing-header {
+		    display: flex;
+		    flex: none;
+		    align-items: center;
+		    justify-content: flex-start;
+		    width: 1000px;
+		    min-height: 39px;
+		    margin: 27px auto 28px;
+		    margin-bottom: 66px;
+		}
+		.landing-window {
+		    z-index: 2;
+		    display: flex;
+		    flex: none;
+		    flex-direction: column;
+		    width: 1000px;
+		    overflow: hidden;
+		    background-color: #fff;
+		    background: url(../img/paper-02.png);
+    		border-radius: 3px;
+    		box-shadow: 0 17px 50px 0 rgb(11 20 26 / 19%), 0 12px 15px 0 rgb(11 20 26 / 24%);
+    		margin-right: auto;
+    		margin-left: auto;
+		}
+
+		.landing-main {
+/*		    padding: 268px 52px 52px;*/
+			padding: 100px 52px 327px;
+		    position: relative;
+		    width: 100%;
+		    box-sizing: border-box;
+		    text-align: center;
+		    background: url(../img/paper-02.png) center top no-repeat, url(../img/lanscape-02.png) center bottom no-repeat, url(../img/sky-03-03.png) center bottom no-repeat;
+  			background-size: cover, 101%, 101%;
+  			background-blend-mode: multiply;
+		    background-color: #fff;
+
+		}
+		.landing-title {
+		    font-size: 28px;
+		    font-weight: 300;
+		    line-height: normal;
+		    color: #41525d;
+		}
+		.DL70t {
+		    margin: 0 auto 16px;
+		    text-align: center;
+		}
+		._2XHqw {
+		    padding: 40px 60px;
+/*		    background-color: rgba(11,20,26,.2);*/
+			background-color: #8e939726;
+		}
+		
+		.pnyuK {
+		    position: relative;
+		    display: flex;
+		    justify-content: center;
+		}
+
+		._3Zpe8 {
+		    margin: 0 auto 15px;
+		    text-align: center;
+		}
+
+		._3Zpe8 a {
+		    color: #008069;
+		}
+
+		/*#video {
+		    width: 560px;
+    		height: 314px;
+		}*/
+
+		/* width */
+		::-webkit-scrollbar {
+		  width: 5px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: #f1f1f1; 
+		}
+		 
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #5a6661; 
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: #5a6661; 
+		}
+
+
+		@media screen and (max-width: 1095px){
+			.landing-window {
+				width: 100%;
+			}
+		}
+		@media screen and (max-width: 660px){
+			.landing-header{
+				width: 100%;
+				padding-left: 36px;
+			}
+			.landing-wrapper{
+				padding: 0;
+			}
+			.landing-window {
+			    border-radius: 0;
+			    margin-bottom: 60px;
+			}
+			.landing-main {
+			    padding: 26px;
+			}
+			
+			._2XHqw {
+    		padding: 10px 6px;
+    		}
+    		.pnyuK{
+    			width: -webkit-fill-available;
+    		}
+
+		}
+
+
+

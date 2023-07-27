@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Playfair+Display&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: Gabelisa;
+    src: url("../font/Gabelisa Font by Keithzo.otf") format("opentype");
+}
+
+
+/*	cover*/
+	#cover span{
+		letter-spacing: 2pt;
+		font-size: 24pt;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+	    color: #5e6661;
+	    text-transform: uppercase;
+	    position: relative;
+/*	    top: 525px;*/
+		}
+
+	#cover .ca{
+		font-family: Gabelisa;
+		font-size: 90pt;
+		font-weight: 400;
+/*		position: relative; top: 391px;*/
+		color: #5e6661;
+	}
+
+	#cover .cb{
+		font-family: 'Playfair Display', serif;
+		font-size: 48pt;
+		position: relative;	top: -97px;
+		color: #c79637;
+	}
+	#cover .cc{
+		font-family: Gabelisa;
+		font-size: 90pt;
+		font-weight: 400;
+		color: #5e6661;
+		position: relative; top: -226px;	
+	}
+
+	/*#cover .cd{
+		font-family: 'Raleway', sans-serif;
+		font-size: 16pt;
+		color: #5e6661;
+		position: relative; bottom: -48px;
+		letter-spacing: 2px;
+	}*/
+	#cover .card{
+		position: relative;
+    	top: -165px;
+	}
+	/*#cover p{
+		color: #5e6661;
+		font-size: 18pt;
+	}*/
+	#tamu{
+		font-family: "IM Fell Double Pica", serif;
+		font-size: 30pt;
+		margin-top: 25px;
+    	margin-bottom: 25px;
+	}
+
+	.btn {
+   /* reset */
+   -webkit-appearance: none;
+   border: 0;
+   outline: 0;
+   /* styles */
+   position: relative;
+   background:  linear-gradient(to right,  #D6BDDD,#B7B4DB,#ABCADA,#B8D8BC,#D8D8BA,#DDBDC0);
+   background-size: 600%;
+   padding: 20.5px 62px;
+   color: black;
+   text-transform:capitalize;
+   border-radius: 100px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18pt;
+   transition: .3s;
+   animation: bruh 16s linear infinite;
+  
+}
+
+@keyframes bruh {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+		/* DEMO-SPECIFIC STYLES */
+		.typewriter p {
+			width: max-content;
+			color: #5e6661;
+/*			font-family: monospace;*/
+			overflow: hidden; /* Ensures the content is not revealed until the animation */
+			border-right: .15em solid orange; /* The typwriter cursor */
+			white-space: nowrap; /* Keeps the content on a single line */
+			margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+			letter-spacing: .01em; /* Adjust as needed */
+			  animation: 
+		    typing 5s steps(40, end) alternate infinite,
+		    blink-caret .5s step-end infinite;
+		    /*animation: 
+			    typing 3.5s steps(30, end),
+			    blink-caret .5s step-end infinite;*/
+		}
+
+		/* The typing effect */
+		@keyframes typing {
+		  from { width: 0 }
+		  to { width: 100% }
+		}
+
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+		  from, to { border-color: transparent }
+		  50% { border-color: orange }
+		}
+
+@media screen and (max-width: 660px){
+	#cover{
+		padding-top: 90px;
+	}
+	#cover span{
+		font-size: 16pt;
+	}
+	#cover .ca{
+		font-family: Gabelisa;
+		font-size: 48pt;
+	}
+	#cover .cc{
+		font-family: Gabelisa;
+		position: relative;
+    	top: -163px;
+		font-size: 48pt;
+	}
+	#cover .cb{
+		font-size: 38pt;
+	    position: relative;
+	    top: -86px;
+	}
+	#tamu{
+		font-size: 16pt;
+	}
+	.btn{
+		padding: 12.5px 35px;
+		font-size: 12pt;
+	}	
+}
