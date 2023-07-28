@@ -1,0 +1,31 @@
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="?view=agenda">Agenda</a>
+    <a href="?view=tamu">Daftar tamu</a>
+    <!-- <a href="pesan.php">Pesan dan Kesan</a> -->
+    <!-- <a href="tentang-kami.php">Tentang Kami</a> -->
+    <!-- <a href="cerita-kami.php">Cerita Kami</a> -->
+    <!-- <a href="galery.php">Galeri</a> -->
+    <a href="?view=usr">Manajemen Akun</a>
+    <a href="query/logout.php">Logout</a>
+  </div>
+</div>
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="javascript:void(0)" class="active">Walimatul Urs Admin <label class="badge badge-info pull-right" style=" font-family: 'Roboto', sans-serif; margin-right: 38px;" >Hi... 
+    <?php
+      session_start();
+      if(!isset($_SESSION["nama"])){
+          header("Location:index.php");
+      }
+      echo ucfirst($_SESSION["nama"]);
+    ?>
+    
+  </label></a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="openNav()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
