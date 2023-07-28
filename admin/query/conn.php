@@ -1,10 +1,10 @@
 <?php
 date_default_timezone_set("Asia/Bangkok");
 
-  $servername = "127.0.0.1";
-  $username = "root";
-  $password = "";
-  $db="walimatul_urs";
+  $servername = "sql6.freemysqlhosting.net";
+  $username = "sql6635828";
+  $password = "LaYdy9RPXl";
+  $db="sql6635828";
   $conn = mysqli_connect($servername, $username, $password,$db);
   // Check connection
   if (!$conn) {
